@@ -175,19 +175,11 @@ margin-bottom: 25px;
   padding-bottom: 200px;
 }
 
-.overlay {
-  max-width: 1600px;
-  max-height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: url(../images/Img\ \(1\).jpg);
-
 
 .hero-title {
   margin-top: 0;
   margin-bottom: 30px;
   
-
   color: var(--title-text-color);
   font-weight: 900;
   font-size: 44px;
