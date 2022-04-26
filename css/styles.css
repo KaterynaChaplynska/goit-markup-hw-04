@@ -226,6 +226,21 @@ margin-bottom: 25px;
 
 }
   
+.menu::before {
+  display: inline-block;
+  content: "";
+  
+  background-size: 10px;
+  background-repeat: no-repeat;
+  
+  background-color: var(--team-background-color);
+  margin-right: 10px;
+  
+
+  background-image: url("../images/icons.svg/envelopegrey.svg");
+}
+
+
 .feature-list .item::before {
   display: block;
   content: "";
