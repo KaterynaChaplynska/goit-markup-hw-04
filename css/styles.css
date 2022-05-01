@@ -172,6 +172,11 @@ margin-bottom: 25px;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+
+  background-image: linear-gradient( to top, rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),  url("../images/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 
@@ -240,7 +245,7 @@ margin-bottom: 25px;
 }
 
 
-.feature-list .item::before {
+.feature-list .item: {
   display: block;
   content: "";
   height: 120px;
@@ -252,21 +257,23 @@ margin-bottom: 25px;
 
 }
 
-.icon-antenna::before {
+.border-icon {
+  width: 270px;
+  height: 120px;
+  border: 1px solid transparent;
+  background-color: var(--team-background-color);
+  border-radius: 4px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.item-icon {
   
-  background-image: url("../images/icons.svg/antenna.svg");
-}
-
-.icon-clock::before {
-  background-image: url("../images/icons.svg/clock.svg");
-}
-
-.icon-diagram::before {
-  background-image: url("../images/icons.svg/diagram.svg");
-  }
-
-.icon-astonaut::before {
-  background-image: url("../images/icons.svg/astronaut.svg");
+  width: 65.32px;
+  height: 70px;
+  margin: 25px 102.34px 25px 102.34px;
+  
+  
 }
 
 .picture-list {
