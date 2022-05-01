@@ -8,6 +8,10 @@
   --team-background-color: #f5f4fa;
   --team-border-bottom: #ECECEC;
   --team-border:#EEEEEE;
+  --teem-clientage-border: #E5E5E5;
+  --teen-clientage-solid:#AFB1B8;
+
+
 
 }
 
@@ -132,10 +136,14 @@ margin-bottom: 25px;
   align-items: center;
 }
 
+
+
 .menu {
   display: flex;
   margin-left: auto;
 }
+
+
 
 .menu .item + .item {
   margin-left: 50px;
@@ -230,19 +238,7 @@ margin-bottom: 25px;
 
 }
   
-.menu::before {
-  display: inline-block;
-  content: "";
-  
-  background-size: 10px;
-  background-repeat: no-repeat;
-  
-  background-color: var(--team-background-color);
-  margin-right: 10px;
-  
 
-  background-image: url("../images/icons.svg/envelopegrey.svg");
-}
 
 
 .feature-list .item: {
@@ -387,6 +383,8 @@ img {
 }
 
 .menu .menu-link {
+  margin-left: 10px;
+
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -396,9 +394,9 @@ img {
 }
 
 .menu .link-email {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  display: flex;
+  align-items: center;
+  
 
   color: var(--accent-color);
   font-weight: 500;
@@ -408,16 +406,20 @@ img {
   text-decoration: none;
 }
 .menu .link-tel {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-
+  display: flex;
+  align-items: center;
+  
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+
+.item-link-icon {
+
+  margin-right: 10px;
 }
 
 .button-primary {
@@ -499,6 +501,51 @@ img {
   margin-bottom: 20px;
   text-decoration: none;
 }
+
+.customers {
+  padding-bottom: 94px;
+}
+
+.clientage {
+  display: flex;
+}
+
+.clientage-border {
+  width: 170px;
+  height: 92px;
+ 
+ 
+}
+
+
+.clientage .item {
+  margin-right: 30px;
+  border: 1px solid var(--teen-clientage-solid);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.clientage .item:hover,
+.clientage .item:focus {
+  border: 1px solid var(--accent-color);
+
+}
+ 
+.object:hover,
+.object:focus {
+   stroke: #2196f3;
+   fill: #AFB1B8;
+}
+
+
+
+.object {
+  width: 106px;
+  height: 60px;
+  margin: 16px 32px;
+}
+
+
 .footer .white {
   color: var(--title-text-color);
   font-family: Raleway;
@@ -519,7 +566,7 @@ img {
   line-height: 1.2;
   text-decoration: none;
 }
-}
+
 
 .images-list .title {
   color: var(--secondary-color);
