@@ -477,7 +477,7 @@ img {
   align-items: center;
   
 
-  color: var(--accent-color);
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
@@ -485,7 +485,11 @@ img {
   text-decoration: none;
 }
 
+.menu .link-email:hover {
+  color: var(--accent-color);
+  fill: var(--accent-color);
 
+}
 
 .menu .link-tel {
   display: flex;
@@ -499,40 +503,21 @@ img {
   text-decoration: none;
 }
 
+.menu .link-tel:hover {
+  color: var(--accent-color);
+  fill: var(--accent-color);
+}
 
 
 .item-link-icon {
+  fill: var(--primary-text-color);
 
   margin-right: 10px;
 }
 
-
-
-.item-link-icon:hover, 
-.item-link-icon:focus {
-
-  stroke: #2196f3;
-
+.item-link-icon:hover {
+  fill: var(--accent-color);
 }
-
-.button-primary {
- 
-  display: inline-block;
-  border-radius: 4px;
-  padding: 6px 22px;
-  text-align: center;
-  border: 1px solid transparent;
-
-  color: var(--title-text-color);
-  background-color: var(--accent-color);
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-}
-
-
 
 
 
