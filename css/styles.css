@@ -387,7 +387,11 @@ background-color: var(--title-text-color);
 }
 
 
-
+.images-list .text {
+  border: 1px solid var(--title-text-color);
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
 
 .flex-element .title {
   color: var(--secondary-color);
@@ -405,6 +409,7 @@ img {
 }
 
 .flex-element .text {
+  margin-top: 0px;
   
   padding: 20px 24px 20px 24px;
 
