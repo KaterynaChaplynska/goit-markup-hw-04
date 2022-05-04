@@ -140,7 +140,7 @@ a {
 }
 
 .button-primary:hover,
-.button-primary:focus, {
+.button-primary:focus {
   background: #FFFFFF;
   border: 1px solid #EEEEEE;
   box-sizing: border-box;
@@ -210,15 +210,15 @@ a {
   justify-content: center;
   width: 44px;
   height: 44px;
-  fill: #AFB1B8;
-  background: #ffffff;
+  fill: var(--teen-clientage-solid);
+  background: var(--title-text-color);
   border-radius: 50%;
 }
 
 .team-social-icon:hover,
 .team-social-icon:focus {
-  fill: #ffffff;
-  background-color: #2196f3;
+  fill: var(--title-text-color);
+  background-color: var(--accent-color);
   border-radius: 50%;
 }
 
@@ -311,6 +311,11 @@ a {
 }
 
 .border-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
   width: 270px;
   height: 120px;
   border: 1px solid transparent;
@@ -321,10 +326,11 @@ a {
 }
 
 .item-icon {
-  
-  width: 65.32px;
+ 
+
+  width: 70px;
   height: 70px;
-  margin: 25px 102.34px 25px 102.34px;
+  
   
   
 }
@@ -371,7 +377,10 @@ background-color: var(--title-text-color);
 
 }
 
-.flex-element:hover {
+.flex-element:hover,
+.flex-element:focus
+
+{
   background: var(--title-text-color)
   border: 1px solid var(--team-border);
   box-sizing: border-box;
@@ -489,13 +498,13 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-
-.menu .link-email:hover
+.menu .link-email:hover,
+.menu .link-email:focus
  {
   color: var(--accent-color);
   fill: var(--accent-color);
-
 }
+
 
 .menu .link-tel {
   display: flex;
@@ -510,7 +519,9 @@ img {
   text-decoration: none;
 }
 
-.menu .link-tel:hover {
+.menu .link-tel:hover,
+.menu .link-tel:focus
+ {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
@@ -719,12 +730,12 @@ img {
 }
 
 .title-social-icon:hover,
-.title-social-icon:focus .icon {
+.title-social-icon:focus {
   
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   border-radius: 50%;
 }
 
 .footer-icon {
-  fill: #FFFFFF;
+  fill: var(--title-text-color);
 }
